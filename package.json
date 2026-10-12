@@ -1,0 +1,21 @@
+{
+  "name": "welcome-react",
+  "version": "1.0.0",
+  "description": "this is Welcome React",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-personal:sursy/namaste-react.git"
+  },
+  "author": "Suresh kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}

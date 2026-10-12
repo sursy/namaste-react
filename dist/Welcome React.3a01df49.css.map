@@ -1,0 +1,1 @@
+{"mappings":"AAAA","sources":["style.css"],"sourcesContent":["#root h1, h2 { \nfont-size: 30px;\n    line-height: 24px;\n    margin: 0px;\n    font-weight: 700;\n    font-family: sans-serif;\n    text-transform: capitalize;\n    padding: 20px;\n    color: #1b2dcb;\n} "],"names":[],"version":3,"file":"Welcome React.3a01df49.css.map","sourceRoot":"/__parcel_source_root/"}

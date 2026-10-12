@@ -1,7 +1,13 @@
-const heading = React.createElement("div", { class: "heading"}, "", 
-    [React.createElement("h1", { class: "heading"}, "Hello"), 
-    React.createElement("h2", { class: "heading2"}, "welcome React")]);
+import React from "react";
+import { createRoot } from "react-dom/client";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const heading = React.createElement(
+    "div",
+    { className: "heading" },
+    React.createElement("h1", { className: "heading" }, "Hello"),
+    React.createElement("h2", { className: "heading2" }, "welcome React")
+);
+
+const root = createRoot(document.getElementById("root"));
 
 root.render(heading);
